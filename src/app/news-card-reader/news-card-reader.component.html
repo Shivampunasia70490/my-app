@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="card" style="width:400px">
+        <img class="card-img-top" [src]="newsItem.urlToImage" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title"> {{newsItem.title}} </h4>
+          <p class="card-text" > {{newsItem.content}}> </p>
+          <a [href]="newsItem.url" class="btn btn-primary">See Full News</a>
+        </div>
+      </div>
+
+    </div>

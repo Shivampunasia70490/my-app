@@ -1,0 +1,13 @@
+<p>news works!</p>
+
+<table>
+    <tr>
+        <th>News Title</th>
+        <th>News Image</th>
+    </tr>
+
+    <tr *ngFor = "let News of news">
+            <td>{{News.title}}</td>
+            <td><img [src]="News.urlToImage" width="100px" height="100px"></td>
+    </tr>
+</table>
